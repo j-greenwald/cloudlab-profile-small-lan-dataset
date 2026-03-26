@@ -53,9 +53,12 @@ pc.defineParameter("osImage", "Select OS image",
                    "pick your favorite one.")
 
 # Dataset parameter
+# pc.defineParameter("dataset", "Your dataset URN",
+#                    portal.ParameterType.STRING,
+#                    "urn:publicid:IDN+emulab.net:portalprofiles+ltdataset+DemoDataset")
 pc.defineParameter("dataset", "Your dataset URN",
                    portal.ParameterType.STRING,
-                   "urn:publicid:IDN+emulab.net:portalprofiles+ltdataset+DemoDataset")
+                   "urn:publicid:IDN+clemson.cloudlab.us:cs-150-dcc-pg0+ltdataset+dist-traces-dataset")
 
 # Optional physical type for all nodes.
 pc.defineParameter("phystype",  "Optional physical node type",
